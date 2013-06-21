@@ -11,9 +11,9 @@
     /*----追加コード----*/
     var Clock = WinJS.Class.define(function () {
     }, {
-        hours: "00",
-        minutes: "00",
-        seconds: "00",
+        hours: "",
+        minutes: "",
+        seconds: "",
         update: function (date) {
             var h, m, s;
             h = date.getHours();
